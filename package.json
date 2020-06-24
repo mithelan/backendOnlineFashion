@@ -59,7 +59,7 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "server": "nodemon server.js"
   },
   "eslintConfig": {
