@@ -17,6 +17,7 @@ app.use(bodyParser.json());
 
 mongoose.connect('mongodb+srv://dbuser:dbuser@cluster0-phmwx.mongodb.net/test?retryWrites=true&w=majority',
     {useNewUrlParser:true,
+       useCreateIndex: true,
 
 
         useUnifiedTopology: true,
